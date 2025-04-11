@@ -45,7 +45,7 @@ public class Main {
         else if (age >= 65 ){
             System.out.println("You have 20% discount, final price is: " + (olderAgeDiscount * price));
         }
-        else if (age > 17 && age < 65){
+        else {
             System.out.println("Your final amount: $" + price);
         }
     }
